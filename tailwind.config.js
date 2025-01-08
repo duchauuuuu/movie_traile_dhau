@@ -6,7 +6,7 @@ export default {
   theme: {
     extend: {
       backgroundImage:{
-        'banner' : 'url(./doona.png)'
+        'banner' : 'url(./assets/doona.png)'
       }
     },
   },
