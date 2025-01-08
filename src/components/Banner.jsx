@@ -7,7 +7,7 @@ import IconPlay from "../assets/play-button.png";
 const Banner = () => {
   const [isTrailerOpen, setTrailerOpen] = useState(false); // Quản lý trạng thái mở trailer
 
-  const trailerUrl = "https://youtu.be/v4rtx48siJI?si=R6SUN-OJJFRuroDC"; // Thay YOUR_TRAILER_ID bằng ID trailer thật
+  const trailerUrl = "https://www.youtube.com/embed/v4rtx48siJI"; // URL nhúng hợp lệ
 
   const handlePlayTrailer = () => {
     setTrailerOpen(true);
@@ -83,7 +83,7 @@ const Banner = () => {
               title="Trailer"
               className="w-full h-full"
               frameBorder="0"
-              allow="autoplay; encrypted-media"
+              allow="autoplay; encrypted-media; fullscreen"
               allowFullScreen
             ></iframe>
             <button
