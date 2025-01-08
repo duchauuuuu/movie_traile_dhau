@@ -7,7 +7,7 @@ import IconPlay from "../assets/play-button.png";
 const Banner = () => {
   const [isTrailerOpen, setTrailerOpen] = useState(false); // Quản lý trạng thái mở trailer
 
-  const trailerUrl = "https://www.youtube.com/embed/v4rtx48siJI"; // URL nhúng hợp lệ
+ 
 
   const handlePlayTrailer = () => {
     setTrailerOpen(true);
@@ -79,7 +79,7 @@ const Banner = () => {
         <div className="fixed inset-0 bg-black/80 flex items-center justify-center z-50">
           <div className="relative w-[80%] h-[80%]">
             <iframe
-              src={trailerUrl}
+              src="https://www.youtube.com/embed/v4rtx48siJI?si=AMcn8F9hET4KDHs_"
               title="Trailer"
               className="w-full h-full"
               frameBorder="0"
